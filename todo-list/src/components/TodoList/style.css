@@ -1,0 +1,30 @@
+.list-container {
+  border-left: 2px dashed rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-container_line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+  padding: 3px;
+  border-bottom: 1px dashed rgba(29, 10, 10, 0.678);
+}
+
+.list-container span {
+  font-size: 20px;
+}
+
+.list-container button {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list-container button:hover {
+  color: #fff;
+}
